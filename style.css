@@ -4,7 +4,7 @@ html, body {
 }
 
 html {
-    background-image: url('img/villa.jpg');
+    background-image: url('villa.jpg');
     font-family: 'Times New Roman', Courier, serif;
     font-size: 100%;
     color: white;
@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: url('img/martini.gif'), auto;
+    cursor: url('martini.gif'), auto;
 }
 
 h1 {
