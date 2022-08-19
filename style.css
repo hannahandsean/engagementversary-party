@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url('img/villa.jpg');
+    font-family: 'Times New Roman', Courier, serif;
+    font-size: 100%;
+    color: white;
+}
+
+body {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: url('img/martini.gif'), auto;
+}
+
+h1 {
+    margin-top: 400px;
+    font-family: 'Brush Script MT';
+    font-size: 5em;
+    font-weight: 100;
+    background-color: green;
+    box-shadow: 0 0 30px 20px red;
+    text-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.main {
+    font-size: 2.5em;
+    font-weight: 100;
+    background-color: red;
+    box-shadow: 0 0 30px 20px green;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.hashtags {
+    margin-top: -20px;
+    display: flex;
+    gap: 10px;
+}
+
+.engaged {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    background-color: green;
+    box-shadow: 0 0 10px 10px red;
+    border-radius: 50%;
+}
+
+.barlife {
+    color: black;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    background-color: white;
+    box-shadow: 0 0 10px 10px green;
+    border-radius: 50%;
+}
+
+.greatbars {
+    font-size: 1.75em;
+    font-style: italic;
+    font-weight: 100;
+    background-color: red;
+    box-shadow: 0 0 10px 10px white;
+    border-radius: 50%;
+}
+
+.invited {
+    font-size: 4em;
+    font-family: 'Brush Script MT';
+    background-color: green;
+    box-shadow: 0 0 30px 20px red;
+}
+
+#planning {
+    box-shadow: 0 0 30px 20px green;
+}
+
+img {
+    width: 40vw;
+    max-width: 500px;
+    box-shadow: 0 0 30px 20px red;
+}
+
+.body {
+    padding: 20px;
+    font-size: 2em;
+    width: 50vw;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 30px 20px green;
+    text-align: center;
+}
+
+.detail {
+    font-family: 'Brush Script MT';
+    border: black;
+    border-style: dotted;
+    border-color: red;
+    border-width: 5px; 
+    margin: 5px;
+    padding: 3px;
+}
+
+.rsvp {
+    font-size: 2em;
+    color: yellow;
+    padding: 10px;
+    font-family: Courier;
+    background-color: hotpink;
+    border-color: yellow;
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 10px red;
+}
+
+a:visited {
+    background-color: rgb(0, 60, 0);
+}
+
+#old-villa {
+    box-shadow: 0 0 30px 20px green;
+}
+
+#helen {
+    height: 20vh;
+    width: auto;
+    margin-bottom: 200px;
+}
