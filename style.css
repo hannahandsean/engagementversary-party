@@ -187,5 +187,12 @@ a:visited {
 #helen {
     height: 20vh;
     width: auto;
+}
+
+.goodbye {
+    font-family: 'Brush Script MT';
+    font-size: 10vw;
+    border-radius: 5px;
+    padding: 10px;
     margin-bottom: 200px;
 }
